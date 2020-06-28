@@ -15,4 +15,7 @@ int main(){
  return 0;
  
  }
-
+/*output is*/
+enter anything
+karachi pakistan
+see it has only printed karachi

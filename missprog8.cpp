@@ -2,27 +2,29 @@
 #include<iostream>
 using namespace std;
 
+
+int sum(int x,int y){
+	
+	return x+y;
+}
+
+double sum(double x,double y){
+	
+	
+	return x+y;
+}
+
+long sum(long x,long y,long z){
+	
+	return x+y+z;
+}
+
 int main(){
-	
-	/*can be like int a[]={,,,,} also*/
-	int a[5]={2,5,9,4,8};
-	
-	for(int i=0;i<5;i++){
-		
-		cout<<"now here we get is "<<a[i]<<endl;
-		
-	}
-cout<<"\n\n ANOTHER EXAMPLE \n\n"<<endl;	
-	string b[3]={"NED","FAST","KU"};
-	
-	for(int j=0;j<5;j++){
-		
-		cout<<"now here we get is "<<b[j]<<endl;
-		
-		}
-		return 0;
-		/*also running without return statement*/
-	
-	
+
+  cout<<"The sum of no.s in first sum:"<<sum(7.5,7.5)<<endl;
+  cout<<"The sum of no.s in second sum:"<<sum(4,5)<<endl;
+  cout<<"The sum of no.s in third sum:"<<sum(3.5,6.0,9.5)<<endl;
+  
+  return 0;
 }
 
